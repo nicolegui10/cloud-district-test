@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Cloud District Test
 
 In the project directory, you can run:
 
@@ -12,57 +12,24 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `npm test`
+### `Tecnologias Usadas`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`React`
+`React - Material UI`
+`Redux`
+`axios`
+`React Router`
 
-### `npm run build`
+### `Aclaraciones`
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Debido a ciertas inconsiencias con la API, el la edicion de los elementos es "Temporal" ya que cuando hacemos el `patch` a reqres, esto no modifica la lista que estamos utilizando para la paginacion, al igual que la creacion.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+El login social fue realizado con `firebase` herramienta que permitio facilitar esto debido a compliaciones que presentaba Facebook
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+A implementar, podria haberse hecho uso de Apollo, no lo utilice al igual que tampoco lo hice con react-admin, debido a que queria mostrar el concepto general implementado por redux y que se pueda ver plasmado en el test.
 
-### `npm run eject`
+Con mas tiempo habría agregado test unitarios y hacer un uso especificos de ciertos componentes para la parte mobile dedicando mas trabajo a lo responsive. 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+El uso de storybooks es una buena alternativa en cuanto a la implementacion de UX, proceso por el que pasé y me parece una buena herramienta a utilizar en proyectos grandes o compañias que poseen mas de un proyecto y necesitan alinear la experencia de usuario de sus aplicaciones. 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
